@@ -18,7 +18,6 @@ def GetData(name, startDate, endDate):
     df.fillna(method="bfill", inplace=True)
 
     return df
-    #self.SP_df = yf.download("^GSPC", start=startDate, end=endDate)
 
 def ComputeDailyReturns(input_df):
     '''
